@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="https://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>北丘俗子</title>
   
-  
+  <subtitle>subtitle</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>北丘俗子</name>
     
   </author>
   
