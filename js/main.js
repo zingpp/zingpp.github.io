@@ -746,30 +746,26 @@ $(function () {
    * Darkmode
    */
 
-  if (typeof autoChangeMode !== "undefined") {
-   
-
-    // if (autoChangeMode == '1') {
-    //   window.matchMedia("(prefers-color-scheme: dark)").addListener(function (e) {
-    //     if (e.matches) {
-    //       activateDarkMode()
-    //       change_light_icon()
-    //       Cookies.remove('theme')
-    //     } else {
-    //       activateLightMode()
-    //       change_dark_icon()
-    //       Cookies.remove('theme')
-    //     }
+  // if (autoChangeMode == '1') {
+  //   window.matchMedia("(prefers-color-scheme: dark)").addListener(function (e) {
+  //     if (e.matches) {
+  //       activateDarkMode()
+  //       change_light_icon()
+  //       Cookies.remove('theme')
+  //     } else {
+  //       activateLightMode()
+  //       change_dark_icon()
+  //       Cookies.remove('theme')
+  //     }
   
-    //   })
-    // }
+  //   })
+  // }
 
-    if (autoChangeMode == '1' || autoChangeMode == '2') {
-      if (Cookies.get("theme") == "dark") {
-        change_light_icon()
-      } else {
-        change_dark_icon()
-      }
+  if (autoChangeMode == '1' || autoChangeMode == '2') {
+    if (Cookies.get("theme") == "dark") {
+      change_light_icon()
+    } else {
+      change_dark_icon()
     }
   }
 
